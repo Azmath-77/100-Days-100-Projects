@@ -11,7 +11,7 @@ function App() {
     const savedTasks = JSON.parse(localStorage.getItem("tasks"));
     if (savedTasks) setTasks(savedTasks);
   }, []);
-
+//ing 
   // Save tasks to local storage
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
